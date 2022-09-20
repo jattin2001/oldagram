@@ -13,7 +13,7 @@ header{
 }
 
 .container{
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ section{
     font-size: 2rem;
 }
 .post-by p{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 300;
 }
 
@@ -78,6 +78,9 @@ section{
 
 .media-post img{
     max-width: 100%;
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
 }
 
 .post-engagement{
@@ -85,7 +88,7 @@ section{
 }
 .post-engagement img{
     margin-top: 10px; 
-    width: 50px;
+    max-width: 40px;
 }
 .post-engagement p{
     margin: 0.5em 0.2em 0.1em 0.2em;
